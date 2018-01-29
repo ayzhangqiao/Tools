@@ -61,8 +61,6 @@
 		185AD4C7201B18140009F683 /* EffectiveTool */ = {
 			isa = PBXGroup;
 			children = (
-				185AD4E1201B19370009F683 /* Tools */,
-				185AD4E0201B192B0009F683 /* Helper */,
 				185AD4DF201B19070009F683 /* Category */,
 				185AD4C8201B18140009F683 /* AppDelegate.h */,
 				185AD4C9201B18140009F683 /* AppDelegate.m */,
@@ -92,20 +90,6 @@
 				185AD4E6201B1DE90009F683 /* UIView+Utlity.m */,
 			);
 			path = Category;
-			sourceTree = "<group>";
-		};
-		185AD4E0201B192B0009F683 /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Helper;
-			sourceTree = "<group>";
-		};
-		185AD4E1201B19370009F683 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -318,7 +302,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JTSYM7H7VY;
-				INFOPLIST_FILE = EffectiveTool/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/EffectiveTool/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangqiao.EffectiveTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -332,7 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JTSYM7H7VY;
-				INFOPLIST_FILE = EffectiveTool/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/EffectiveTool/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhangqiao.EffectiveTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
