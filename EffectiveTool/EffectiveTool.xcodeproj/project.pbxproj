@@ -14,6 +14,8 @@
 		185AD4D5201B18140009F683 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185AD4D3201B18140009F683 /* LaunchScreen.storyboard */; };
 		185AD4D8201B18140009F683 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 185AD4D7201B18140009F683 /* main.m */; };
 		185AD4E7201B1DE90009F683 /* UIView+Utlity.m in Sources */ = {isa = PBXBuildFile; fileRef = 185AD4E6201B1DE90009F683 /* UIView+Utlity.m */; };
+		331EE1412058F45100BBC31E /* RunLoopType.m in Sources */ = {isa = PBXBuildFile; fileRef = 331EE1402058F45100BBC31E /* RunLoopType.m */; };
+		331EE1432058F52B00BBC31E /* RunLoop.md in Resources */ = {isa = PBXBuildFile; fileRef = 331EE1422058F52B00BBC31E /* RunLoop.md */; };
 		335470102046587B00C14CFF /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3354700F2046587B00C14CFF /* UIViewController+Tracking.m */; };
 		33547014204792E000C14CFF /* EOCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 33547013204792E000C14CFF /* EOCPerson.m */; };
 		3384C02C2047AD6400744A5B /* EOCAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3384C02B2047AD6400744A5B /* EOCAutoDictionary.m */; };
@@ -33,6 +35,9 @@
 		185AD4D7201B18140009F683 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		185AD4E5201B1DE90009F683 /* UIView+Utlity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Utlity.h"; sourceTree = "<group>"; };
 		185AD4E6201B1DE90009F683 /* UIView+Utlity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utlity.m"; sourceTree = "<group>"; };
+		331EE13F2058F45100BBC31E /* RunLoopType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopType.h; sourceTree = "<group>"; };
+		331EE1402058F45100BBC31E /* RunLoopType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopType.m; sourceTree = "<group>"; };
+		331EE1422058F52B00BBC31E /* RunLoop.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RunLoop.md; sourceTree = "<group>"; };
 		3354700E2046587B00C14CFF /* UIViewController+Tracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
 		3354700F2046587B00C14CFF /* UIViewController+Tracking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
 		33547012204792E000C14CFF /* EOCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCPerson.h; sourceTree = "<group>"; };
@@ -100,6 +105,8 @@
 				185AD4C9201B18140009F683 /* AppDelegate.m */,
 				185AD4CB201B18140009F683 /* ViewController.h */,
 				185AD4CC201B18140009F683 /* ViewController.m */,
+				331EE13F2058F45100BBC31E /* RunLoopType.h */,
+				331EE1402058F45100BBC31E /* RunLoopType.m */,
 				33547012204792E000C14CFF /* EOCPerson.h */,
 				33547013204792E000C14CFF /* EOCPerson.m */,
 				3384C02A2047AD6400744A5B /* EOCAutoDictionary.h */,
@@ -107,6 +114,7 @@
 				3354700E2046587B00C14CFF /* UIViewController+Tracking.h */,
 				3354700F2046587B00C14CFF /* UIViewController+Tracking.m */,
 				185AD4DE201B189F0009F683 /* Supporting Files */,
+				331EE1422058F52B00BBC31E /* RunLoop.md */,
 			);
 			path = EffectiveTool;
 			sourceTree = "<group>";
@@ -200,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				331EE1432058F52B00BBC31E /* RunLoop.md in Resources */,
 				185AD4D5201B18140009F683 /* LaunchScreen.storyboard in Resources */,
 				185AD4D2201B18140009F683 /* Assets.xcassets in Resources */,
 				185AD4D0201B18140009F683 /* Main.storyboard in Resources */,
@@ -265,6 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				335470102046587B00C14CFF /* UIViewController+Tracking.m in Sources */,
+				331EE1412058F45100BBC31E /* RunLoopType.m in Sources */,
 				185AD4CD201B18140009F683 /* ViewController.m in Sources */,
 				185AD4D8201B18140009F683 /* main.m in Sources */,
 				185AD4E7201B1DE90009F683 /* UIView+Utlity.m in Sources */,

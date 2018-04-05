@@ -22,6 +22,16 @@
     
 //    [self blockTest];
     
+    NSRunLoop *currentMode = [NSRunLoop currentRunLoop];
+    NSRunLoop *defautMode = [NSRunLoop mainRunLoop];
+    
+    
+    NSTimer
+    
+    [[NSRunLoop currentRunLoop] addTimer:nil forMode:NSRunLoopCommonModes];
+    
+    NSLog(@"currentMode = %p",currentMode);
+    NSLog(@"defautMode = %p",defautMode);
 }
 
 - (void)askUserQuestion {

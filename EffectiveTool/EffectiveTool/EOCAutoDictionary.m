@@ -49,7 +49,7 @@ id autoDictionarySetter(id self, SEL _cmd, id value) {
     [key deleteCharactersInRange:NSMakeRange(0, 3)];
     
     
-    
+    return 0;
     
 }
 
