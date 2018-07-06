@@ -17,8 +17,7 @@
 		331EE1412058F45100BBC31E /* RunLoopType.m in Sources */ = {isa = PBXBuildFile; fileRef = 331EE1402058F45100BBC31E /* RunLoopType.m */; };
 		331EE1432058F52B00BBC31E /* RunLoop.md in Resources */ = {isa = PBXBuildFile; fileRef = 331EE1422058F52B00BBC31E /* RunLoop.md */; };
 		335470102046587B00C14CFF /* UIViewController+Tracking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3354700F2046587B00C14CFF /* UIViewController+Tracking.m */; };
-		33547014204792E000C14CFF /* EOCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 33547013204792E000C14CFF /* EOCPerson.m */; };
-		3384C02C2047AD6400744A5B /* EOCAutoDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 3384C02B2047AD6400744A5B /* EOCAutoDictionary.m */; };
+		3376D39A20EE0A95009311FD /* UIViewController+AssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = 3376D39920EE0A95009311FD /* UIViewController+AssociatedObjects.m */; };
 		A331EB52FCCB5FF9224303F7 /* libPods-EffectiveTool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DD704EE34EBA9529CEC509 /* libPods-EffectiveTool.a */; };
 /* End PBXBuildFile section */
 
@@ -40,10 +39,8 @@
 		331EE1422058F52B00BBC31E /* RunLoop.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RunLoop.md; sourceTree = "<group>"; };
 		3354700E2046587B00C14CFF /* UIViewController+Tracking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Tracking.h"; sourceTree = "<group>"; };
 		3354700F2046587B00C14CFF /* UIViewController+Tracking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Tracking.m"; sourceTree = "<group>"; };
-		33547012204792E000C14CFF /* EOCPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCPerson.h; sourceTree = "<group>"; };
-		33547013204792E000C14CFF /* EOCPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCPerson.m; sourceTree = "<group>"; };
-		3384C02A2047AD6400744A5B /* EOCAutoDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EOCAutoDictionary.h; sourceTree = "<group>"; };
-		3384C02B2047AD6400744A5B /* EOCAutoDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EOCAutoDictionary.m; sourceTree = "<group>"; };
+		3376D39820EE0A95009311FD /* UIViewController+AssociatedObjects.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+AssociatedObjects.h"; sourceTree = "<group>"; };
+		3376D39920EE0A95009311FD /* UIViewController+AssociatedObjects.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+AssociatedObjects.m"; sourceTree = "<group>"; };
 		55DD704EE34EBA9529CEC509 /* libPods-EffectiveTool.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EffectiveTool.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C1D3EBDBA07FDC577F7811 /* Pods-EffectiveTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EffectiveTool.release.xcconfig"; path = "Pods/Target Support Files/Pods-EffectiveTool/Pods-EffectiveTool.release.xcconfig"; sourceTree = "<group>"; };
 		E51B922D5E6F263AC3614467 /* Pods-EffectiveTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EffectiveTool.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EffectiveTool/Pods-EffectiveTool.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,12 +104,6 @@
 				185AD4CC201B18140009F683 /* ViewController.m */,
 				331EE13F2058F45100BBC31E /* RunLoopType.h */,
 				331EE1402058F45100BBC31E /* RunLoopType.m */,
-				33547012204792E000C14CFF /* EOCPerson.h */,
-				33547013204792E000C14CFF /* EOCPerson.m */,
-				3384C02A2047AD6400744A5B /* EOCAutoDictionary.h */,
-				3384C02B2047AD6400744A5B /* EOCAutoDictionary.m */,
-				3354700E2046587B00C14CFF /* UIViewController+Tracking.h */,
-				3354700F2046587B00C14CFF /* UIViewController+Tracking.m */,
 				185AD4DE201B189F0009F683 /* Supporting Files */,
 				331EE1422058F52B00BBC31E /* RunLoop.md */,
 			);
@@ -136,6 +127,10 @@
 			children = (
 				185AD4E5201B1DE90009F683 /* UIView+Utlity.h */,
 				185AD4E6201B1DE90009F683 /* UIView+Utlity.m */,
+				3354700E2046587B00C14CFF /* UIViewController+Tracking.h */,
+				3354700F2046587B00C14CFF /* UIViewController+Tracking.m */,
+				3376D39820EE0A95009311FD /* UIViewController+AssociatedObjects.h */,
+				3376D39920EE0A95009311FD /* UIViewController+AssociatedObjects.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -275,12 +270,11 @@
 			files = (
 				335470102046587B00C14CFF /* UIViewController+Tracking.m in Sources */,
 				331EE1412058F45100BBC31E /* RunLoopType.m in Sources */,
+				3376D39A20EE0A95009311FD /* UIViewController+AssociatedObjects.m in Sources */,
 				185AD4CD201B18140009F683 /* ViewController.m in Sources */,
 				185AD4D8201B18140009F683 /* main.m in Sources */,
 				185AD4E7201B1DE90009F683 /* UIView+Utlity.m in Sources */,
-				33547014204792E000C14CFF /* EOCPerson.m in Sources */,
 				185AD4CA201B18140009F683 /* AppDelegate.m in Sources */,
-				3384C02C2047AD6400744A5B /* EOCAutoDictionary.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

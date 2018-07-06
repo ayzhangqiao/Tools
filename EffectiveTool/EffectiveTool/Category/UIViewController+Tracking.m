@@ -42,4 +42,8 @@
     NSLog(@"viewWillAppear: %@", self);
 }
 
+- (void)eat {
+    NSLog(@"eat what");
+}
+
 @end

@@ -10,4 +10,6 @@
 
 @interface UIViewController (Tracking)
 
+- (void)eat;
+
 @end
